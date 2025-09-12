@@ -40,6 +40,11 @@ export default function LoginScreen() {
         onPress={() => router.push("/faceLogin")}
         type="ghost"
       />
+      <CustomButton
+        label="Ir a Product Manager"
+        onPress={() => router.push("/ProductManager")}
+        type="ghost"
+      />
       
     </View>
   );
